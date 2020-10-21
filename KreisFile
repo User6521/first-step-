@@ -1,0 +1,12 @@
+import java.util.Vector;
+
+abstract class Figur
+{
+  abstract double getFlaeche();
+}
+
+class Rechteck extends Figur
+{
+  private double a, b;
+
+ 
